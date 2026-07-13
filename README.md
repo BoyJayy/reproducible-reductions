@@ -1,16 +1,8 @@
-<p align="center">
-  <img src="assets/reductions-banner.svg" alt="Reproducible Parallel Reductions banner" width="100%" />
-</p>
-
-<p align="center">
-  <strong>Accuracy, reproducibility, and performance trade-offs in parallel floating-point reductions on CPUs and GPUs.</strong>
-</p>
-
-<p align="center">
-  <a href="README_RU.md">Русская версия</a>
-</p>
-
 # Reproducible Parallel Reductions
+
+**Accuracy, reproducibility, and performance trade-offs in parallel floating-point reductions on CPUs and GPUs.**
+
+[Русская версия](README_RU.md)
 
 `reproducible-reductions` is a research-oriented C++20 project for the comparative study of multiple floating-point reduction approaches.
 
@@ -31,10 +23,6 @@ The project studies the trade-off between three goals:
 - **accuracy** — closeness to a high-precision reference result;
 - **reproducibility** — stability of the bit pattern across repeated runs, thread counts, and architectures;
 - **performance** — latency, throughput, scalability, and effective memory bandwidth.
-
-<p align="center">
-  <img src="assets/research-map.svg" alt="Comparative reduction research workflow" width="96%" />
-</p>
 
 ## Research question
 
@@ -141,8 +129,7 @@ reproducible-reductions/
 │   ├── configs/             # reproducible experiment definitions
 │   ├── results/             # generated CSV files, excluded when appropriate
 │   └── scripts/             # Python analysis and plotting
-├── reports/                 # figures, tables, and technical notes
-└── assets/                  # README visuals
+└── reports/                 # figures, tables, and technical notes
 ```
 
 ## Current status
