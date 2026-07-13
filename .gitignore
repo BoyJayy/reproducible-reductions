@@ -1,0 +1,56 @@
+# Build directories
+build/
+build-*/
+out/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Test and benchmark output
+Testing/
+benchmark_results/
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+
+# Experiment outputs
+experiments/results/*.csv
+experiments/results/*.json
+experiments/results/*.log
+reports/figures/generated/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local environment
+.env
+.env.*
